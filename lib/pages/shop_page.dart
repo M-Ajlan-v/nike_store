@@ -20,25 +20,18 @@ class _ShopPageState extends State<ShopPage> {
         Column(
           children: [
             Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12),
-                color: Colors.grey[200],
-              ),
               margin: EdgeInsets.symmetric(horizontal: 25),
-              padding: EdgeInsets.all(12),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text("Search",
-                    style: TextStyle(
-                        color: Colors.grey
-                    ),
-                  ),
-                  Icon(
-                    Icons.search,
-                    color: Colors.grey,
-                  ),
-                ],
+              padding: EdgeInsets.symmetric(horizontal: 12),
+              decoration: BoxDecoration(
+                color: Colors.grey[200],
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: TextField(
+                decoration: InputDecoration(
+                  icon: Icon(Icons.search, color: Colors.grey),
+                  hintText: "Search",
+                  border: InputBorder.none,
+                ),
               ),
             ),
             Padding(
