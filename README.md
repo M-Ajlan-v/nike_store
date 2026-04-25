@@ -13,14 +13,14 @@ State is handled using `Provider`.
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/scrn1.png" width="200"/>
-  <img src="screenshots/scrn2.png" width="200"/>
-  <img src="screenshots/scrn3.png" width="200"/>
+  <img src="screenshot/scrn1.png" width="200"/>
+  <img src="screenshot/scrn2.png" width="200"/>
+  <img src="screenshot/scrn3.png" width="200"/>
 </p>
 
 <p align="center">
-  <img src="screenshots/scrn4.png" width="200"/>
-  <img src="screenshots/scrn5.png" width="200"/>
+  <img src="screenshot/scrn4.png" width="200"/>
+  <img src="screenshot/scrn5.png" width="200"/>
 </p>
 
 ## Technical Notes
