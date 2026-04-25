@@ -1,17 +1,42 @@
-# my_app
+# Nike Store
 
-A new Flutter project.
+Simple Flutter app with 3 tabs: Shop, Cart, Profile.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+* Shop → displays products using `ListView.builder`
+* Cart → manages selected items
+* Profile → basic UI scaffold
 
-A few resources to get you started if this is your first Flutter project:
+State is handled using `Provider`.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![scrn1](screenshots/scrn1.png)
+![scrn2](screenshots/scrn2.png)
+![scrn3](screenshots/scrn3.png)
+![scrn4](screenshots/scrn4.png)
+![scrn5](screenshots/scrn5.png)
+
+## Technical Notes
+
+* State Management: `Provider`
+
+  * Central store for products + cart
+  * Notifies UI on updates
+
+* UI Rendering:
+
+  * `ListView.builder` for scalable lists
+  * Reusable widgets for items and buttons
+
+* Navigation:
+
+  * Bottom navigation with 3 tabs
+
+
+## Structure
+
+* `pages/` → main screens (shop, cart, profile)
+* `components/` → reusable widgets
+* `models/` → data structures
