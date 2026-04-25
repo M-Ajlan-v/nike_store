@@ -12,11 +12,16 @@ State is handled using `Provider`.
 
 ## Screenshots
 
-![scrn1](screenshot/scrn1.png)
-![scrn2](screenshot/scrn2.png)
-![scrn3](screenshot/scrn3.png)
-![scrn4](screenshot/scrn4.png)
-![scrn5](screenshot/scrn5.png)
+<p align="center">
+  <img src="screenshots/scrn1.png" width="200"/>
+  <img src="screenshots/scrn2.png" width="200"/>
+  <img src="screenshots/scrn3.png" width="200"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/scrn4.png" width="200"/>
+  <img src="screenshots/scrn5.png" width="200"/>
+</p>
 
 ## Technical Notes
 
